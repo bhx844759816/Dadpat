@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:id="@+id/id_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/id_setting_bj"
+        android:layout_width="330dp"
+        android:layout_height="194dp"
+        android:background="@drawable/per_bj"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <com.benbaba.dadpat.host.view.StrokeTextView
+        android:id="@+id/id_setting_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/setting"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="@+id/id_setting_bj"
+        app:layout_constraintRight_toRightOf="@+id/id_setting_bj"
+        app:layout_constraintTop_toTopOf="@+id/id_setting_bj"
+        app:stroke_color="@color/text_music_stroke_color" />
+
+    <LinearLayout
+        android:layout_width="303dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/per_bottom_bj"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="@+id/id_setting_bj"
+        app:layout_constraintRight_toRightOf="@+id/id_setting_bj"
+        app:layout_constraintTop_toBottomOf="@+id/id_setting_title">
+
+        <RelativeLayout
+            android:id="@+id/id_setting_selectWifi"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/wifi_select"
+                android:textColor="@color/sex_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/per_arrow" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/storage_fenge" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/game_sound"
+                android:textColor="@color/sex_color"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/id_setting_sound_effect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:background="@drawable/switch_off"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/storage_fenge" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="用户协议及服务条款"
+                android:textColor="@color/sex_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/per_arrow" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/id_setting_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/set_energe_button"
+        app:layout_constraintLeft_toLeftOf="@+id/id_setting_bj"
+        app:layout_constraintRight_toRightOf="@+id/id_setting_bj"
+        app:layout_constraintTop_toBottomOf="@+id/id_setting_bj" />
+</android.support.constraint.ConstraintLayout>

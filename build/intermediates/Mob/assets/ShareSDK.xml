@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInfor>
+<SinaWeibo AppKey="2983242978" AppSecret="e1d8f32d60d0710c90a531bb68118357" ShareByAppClient="true" RedirectUrl="http://www.goofypapa.com" />
+<TencentWeibo Enable="false" />
+<Douban Enable="false" />
+<QZone AppId="1106691059" AppKey="iNQnhVPpj42J8fl5" ShareByAppClient="true" />
+<Renren Enable="false" />
+<KaiXin Enable="false" />
+<Facebook Enable="false" />
+<Twitter Enable="false" />
+<Evernote Enable="false" />
+<FourSquare Enable="false" />
+<GooglePlus Enable="false" />
+<Instagram Enable="false" />
+<LinkedIn Enable="false" />
+<Tumblr Enable="false" />
+<Email Enable="false" />
+<ShortMessage Enable="false" />
+<Wechat AppId="wxc6d5d8bca1f1c5a9" AppSecret="c5460ffde4c1c93dcc71392108bfa01d" ShareByAppClient="true" />
+<WechatMoments AppId="wxc6d5d8bca1f1c5a9" AppSecret="c5460ffde4c1c93dcc71392108bfa01d" ShareByAppClient="true" />
+<QQ AppId="1106691059" AppKey="iNQnhVPpj42J8fl5" ShareByAppClient="true" />
+<Instapaper Enable="false" />
+<Pocket Enable="false" />
+<YouDao Enable="false" />
+<Pinterest Enable="false" />
+<Flickr Enable="false" />
+<Dropbox Enable="false" />
+<VKontakte Enable="false" />
+<WechatFavorite Enable="false" />
+<Yixin Enable="false" />
+<YixinMoments Enable="false" />
+<Mingdao Enable="false" />
+<Line Enable="false" />
+<WhatsApp Enable="false" />
+<KakaoTalk Enable="false" />
+<KakaoStory Enable="false" />
+<FacebookMessenger Enable="false" />
+<Alipay Enable="false" />
+<AlipayMoments Enable="false" />
+<Dingding Enable="false" />
+<Youtube Enable="false" />
+<Meipai Enable="false" />
+<Telegram Enable="false" />
+<Cmcc Enable="false" />
+<Reddit Enable="false" />
+<Telecom Enable="false" />
+<Accountkit Enable="false" />
+<Douyin Enable="false" />
+</DevInfor>

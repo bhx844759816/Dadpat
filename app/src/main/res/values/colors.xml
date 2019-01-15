@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="login_text_color">#E7F8FF</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_42">#6bffffff</color>
+    <color name="white_30">#4dffffff</color>
+
+    <color name="message_title_color">#623A01</color>
+    <color name="message_time_color">#865c21</color>
+    <color name="text_music_stroke_color">#DB8101</color>
+    <color name="sex_color">#c6720c</color>
+    <color name="gray">#333333</color>
+    <color name="ripple_color">#adc5fe</color>
+</resources>

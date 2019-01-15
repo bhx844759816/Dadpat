@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="输入密码并发送到鼓"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/id_view_connect_wifi_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/login_rect_bg"
+                android:hint="密码"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/id_view_connect_wifi_psd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/login_eye_close" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/id_view_connect_wifi_send"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/half_oral_rect_bg"
+            android:gravity="center"
+            android:text="@string/send"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</RelativeLayout>

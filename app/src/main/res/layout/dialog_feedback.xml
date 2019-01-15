@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="438dp"
+        android:layout_height="261dp"
+        android:clipChildren="false">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/feedback_bj" />
+
+        <ImageView
+            android:id="@+id/iv_feedback_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/feedback_close" />
+
+        <EditText
+            android:id="@+id/et_feedback_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="45dp"
+            android:background="@null"
+            android:gravity="top"
+            android:hint="@string/feedback_hint"
+            android:padding="5dp"
+            android:textColor="#865c21"
+            android:textColorHint="#90865c21"
+            android:textSize="13sp" />
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_feedback_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/feedback_button_send" />
+
+
+</LinearLayout>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/id_per_bj"
+        android:layout_width="336dp"
+        android:layout_height="277dp"
+        android:background="@drawable/per_bj" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/id_per_head"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="16dp"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="2dp"
+        app:layout_constraintLeft_toLeftOf="@+id/id_per_bj"
+        app:layout_constraintTop_toTopOf="@+id/id_per_bj" />
+
+    <LinearLayout
+        android:id="@+id/id_per_name_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        app:layout_constraintLeft_toRightOf="@+id/id_per_head"
+        app:layout_constraintTop_toTopOf="@+id/id_per_head">
+
+        <com.benbaba.dadpat.host.view.StrokeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:stroke_color="@color/text_music_stroke_color" />
+
+        <EditText
+            android:id="@+id/id_per_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/per_textview_bj"
+            android:cursorVisible="false"
+            android:paddingLeft="20dp"
+            android:text="小鼓"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_per_data_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_marginTop="13dp"
+        android:gravity="center_vertical"
+        app:layout_constraintLeft_toLeftOf="@+id/id_per_name_parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_per_name_parent">
+
+        <com.benbaba.dadpat.host.view.StrokeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/birthday"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:stroke_color="@color/text_music_stroke_color" />
+
+        <EditText
+            android:id="@+id/id_per_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/per_textview_bj"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:hint="@string/select_birthday"
+            android:paddingLeft="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white_30"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/id_per_select_sex_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="@+id/id_per_data_parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_per_data_parent">
+
+        <RadioButton
+            android:id="@+id/id_per_girl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/select_girl"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/girl"
+            android:textColor="@color/sex_color"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/id_per_boy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:button="@drawable/select_boy"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/boy"
+            android:textColor="@color/sex_color"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+    <ScrollView
+        android:layout_width="303dp"
+        android:layout_height="130dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/per_bottom_bj"
+        app:layout_constraintLeft_toLeftOf="@+id/id_per_head"
+        app:layout_constraintRight_toRightOf="@+id/id_per_bj"
+        app:layout_constraintTop_toBottomOf="@+id/id_per_select_sex_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@drawable/ripple_bg"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/accout"
+                    android:textColor="@color/sex_color" />
+
+                <ImageView
+                    android:id="@+id/id_per_account_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@drawable/per_fenge" />
+
+            <RelativeLayout
+                android:id="@+id/id_per_user_feedback"
+                android:layout_width="303dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ripple_bg"
+                android:gravity="center_vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/feedback"
+                    android:textColor="@color/sex_color" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/per_arrow" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@drawable/per_fenge" />
+
+            <RelativeLayout
+                android:id="@+id/id_per_check_version"
+                android:layout_width="303dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ripple_bg"
+                android:gravity="center_vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check_version"
+                    android:textColor="@color/sex_color" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/per_arrow" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@drawable/per_fenge" />
+
+            <RelativeLayout
+                android:id="@+id/id_per_copyright"
+                android:layout_width="303dp"
+                android:layout_height="45dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/ripple_bg"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/copyright"
+                    android:textColor="@color/sex_color" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/per_arrow" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@drawable/per_fenge" />
+
+            <RelativeLayout
+                android:id="@+id/id_per_user_protocol"
+                android:layout_width="303dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ripple_bg"
+                android:gravity="center_vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/userProtocol"
+                    android:textColor="@color/sex_color" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/per_arrow" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@drawable/per_fenge" />
+
+            <RelativeLayout
+                android:id="@+id/id_per_clear_cache"
+                android:layout_width="303dp"
+                android:layout_height="45dp"
+                android:background="@drawable/ripple_bg"
+                android:gravity="center_vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clear_cache"
+                    android:textColor="@color/sex_color" />
+
+                <TextView
+                    android:id="@+id/id_per_total_cache"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:drawableRight="@drawable/per_arrow"
+                    android:textColor="@color/sex_color"
+                 />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@drawable/per_fenge" />
+
+            <RelativeLayout
+                android:id="@+id/id_per_login_off"
+                android:layout_width="303dp"
+                android:layout_height="45dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/ripple_bg"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_off"
+                    android:textColor="@color/sex_color" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/per_arrow" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/id_per_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/per_button_save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/id_per_bj"
+        app:layout_constraintRight_toRightOf="@id/id_per_bj"
+        app:layout_constraintTop_toBottomOf="@+id/id_per_bj" />
+</android.support.constraint.ConstraintLayout>

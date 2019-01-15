@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/news_horn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <TextView
+                android:id="@+id/id_notice_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="笨爸爸首届线下音乐帕"
+                android:textColor="@color/message_title_color"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/id_notice_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="2017-5-4"
+                android:textColor="@color/message_time_color"
+                android:textSize="9sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/id_notice_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="5dp"
+            android:text="笨爸爸首届线下音乐趴即将开始笨爸爸首届线下音乐趴即将开始笨爸爸首届线下音乐趴即将开始笨爸爸音乐趴即将开始"
+            android:textColor="@color/message_time_color" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/per_fenge" />
+    </LinearLayout>
+</LinearLayout>

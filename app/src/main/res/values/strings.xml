@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">笨爸爸</string>
+
+
+    <string name="setting">设置</string>
+    <string name="feedback">用户反馈</string>
+    <string name="check_version">检查版本</string>
+    <string name="copyright">版权信息</string>
+    <string name="remind">提示</string>
+    <string name="notice">公告</string>
+    <string name="feedback_hint">写出您宝贵得意见和建议告诉我们,感谢您对我们得支持</string>
+    <string name="wx">微信</string>
+    <string name="wb">微博</string>
+    <string name="phone">手机</string>
+    <string name="phone_register">手机号注册</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="phone_code">验证码</string>
+    <string name="send_phone_code">获取验证码</string>
+    <string name="send_phone_code_retry">重新获取</string>
+    <string name="register">注册</string>
+    <string name="confirmModify">确认修改</string>
+    <string name="confirm">确定</string>
+    <string name="help">帮助</string>
+    <string name="shop">商城</string>
+    <string name="send">发送</string>
+    <string name="name">姓名:</string>
+    <string name="birthday">生日:</string>
+    <string name="select_birthday">请选择生日</string>
+    <string name="boy">男</string>
+    <string name="girl">女</string>
+    <string name="accout">账号</string>
+    <string name="userProtocol">用户协议/隐私条款</string>
+    <string name="clear_cache">清理缓存</string>
+    <string name="login_off">注销</string>
+    <string name="music_buffer">歌曲缓冲</string>
+    <string name="select_all">全选</string>
+    <string name="game_sound">游戏音效</string>
+    <string name="wifi_select">wifi连接</string>
+    <string name="wifi_setting_prompt">1、连接前请确保手机wifi和产品的开关均已开启；\n
+2、由于网络可能存在不稳定性，在连接和使用产品过程中可能存在不稳定或传输数据慢的现象，若使用过程中出现错误，可按界面提示重新连接。</string>
+
+
+</resources>

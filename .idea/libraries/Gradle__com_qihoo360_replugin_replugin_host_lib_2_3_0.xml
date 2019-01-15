@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.qihoo360.replugin:replugin-host-lib-2.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/replugin-host-lib-2.3.0.aar/6628c2777073459c2534114af2644875/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/replugin-host-lib-2.3.0.aar/6628c2777073459c2534114af2644875/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.qihoo360.replugin/replugin-host-lib/2.3.0/cfa98f09eec717abe90843b87c5ab78e39654eec/replugin-host-lib-2.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

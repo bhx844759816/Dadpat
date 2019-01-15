@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <!--<RadioGroup-->
+        <!--android:id="@+id/id_message_rg"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:visibility="gone">-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/id_notice"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/message_select_bg"-->
+            <!--android:button="@null"-->
+            <!--android:checked="true"-->
+            <!--android:gravity="center"-->
+            <!--android:text="公告"-->
+            <!--android:textColor="@color/main_message_color" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/id_message"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="66dp"-->
+            <!--android:background="@drawable/message_select_bg"-->
+            <!--android:button="@null"-->
+            <!--android:checked="false"-->
+            <!--android:gravity="center"-->
+            <!--android:text="消息"-->
+            <!--android:textColor="@color/main_message_color" />-->
+    <!--</RadioGroup>-->
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/notice_bg" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/id_message_list"
+            android:layout_marginTop="40dp"
+            android:layout_width="425dp"
+            android:layout_height="230dp" />
+    </FrameLayout>
+
+
+</LinearLayout>

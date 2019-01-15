@@ -1,0 +1,3 @@
+-keep public class com.benbaba.dadpat.host.App { <init>(...); }
+-keep public class android.support.multidex.**{*;}
+-keep public class com.tencent.tauth.IUiListener.**{*;}

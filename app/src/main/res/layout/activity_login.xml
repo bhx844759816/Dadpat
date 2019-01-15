@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bj">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/login_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/login_cloud"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="90dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/login_cloud"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/id_login_wx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="9dp"
+            android:drawableTop="@drawable/login_wechat"
+            android:gravity="center_horizontal"
+            android:text="@string/wx"
+            android:textColor="@color/login_text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/id_login_wb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:drawablePadding="9dp"
+            android:drawableTop="@drawable/login_sina"
+            android:gravity="center_horizontal"
+            android:text="@string/wb"
+            android:textColor="@color/login_text_color"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/id_login_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:drawablePadding="9dp"
+            android:drawableTop="@drawable/login_phone"
+            android:gravity="center_horizontal"
+            android:text="@string/phone"
+            android:textColor="@color/login_text_color"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

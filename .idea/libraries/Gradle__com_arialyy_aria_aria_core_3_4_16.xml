@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.arialyy.aria:aria-core-3.4.16">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aria-core-3.4.16.aar/6940a1aefb25f5a346a344bad8e1e4f4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aria-core-3.4.16.aar/6940a1aefb25f5a346a344bad8e1e4f4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.arialyy.aria/aria-core/3.4.16/a1b207b8b2f0acd5f2ec20d5707d7c70d850df7a/aria-core-3.4.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

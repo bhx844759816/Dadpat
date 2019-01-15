@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="340dp"
+        android:layout_height="285dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/drawable_fillet_rect_bg">
+        <android.support.v7.widget.RecyclerView
+            android:layout_margin="5dp"
+            android:id="@+id/id_dialog_bluetooth_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/id_dialog_bluetooth_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:background="@drawable/dialog_icon_close" />
+</FrameLayout>

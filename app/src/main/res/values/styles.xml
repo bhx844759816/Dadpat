@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--半透明-->
+        <item name="android:windowNoTitle">true</item>
+        <!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--模糊-->
+    </style>
+
+    <declare-styleable name="StrokeTextView">
+        <attr name="stroke_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="BottomShaderView">
+        <attr name="firstLeftMargin" format="dimension" />
+        <attr name="secondLeftMargin" format="dimension" />
+        <attr name="thirdLeftMargin" format="dimension" />
+        <attr name="fourLeftMargin" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="SearchWifiView">
+        <!--圆环得颜色-->
+        <attr name="ring_color" format="color" />
+        <!--圆环得个数-->
+        <attr name="ring_num" format="integer" />
+        <!--两个圆环得间距-->
+        <attr name="ring_distance" format="dimension" />
+        <!--圆环得宽度-->
+        <attr name="ring_width" format="dimension" />
+        <!--圆环得角度-->
+        <attr name="ring_angle" format="integer" />
+    </declare-styleable>
+
+
+</resources>

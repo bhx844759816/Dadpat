@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <declare-styleable name="RadarView">
+        <!--圆圈和交叉线的颜色-->
+        <attr name="circleColor" format="color" />
+        <!--圆圈的数量-->
+        <attr name="circleNum" format="integer" />
+        <!--扫描的颜色 RadarView会对这个颜色做渐变透明处理-->
+        <attr name="sweepColor" format="color" />
+        <!--水滴的颜色-->
+        <attr name="raindropColor" format="color" />
+        <!--水滴的数量 这里表示的是水滴最多能同时出现的数量。因为水滴是随机产生的，数量是不确定的-->
+        <attr name="raindropNum" format="integer" />
+        <!--是否显示交叉线-->
+        <attr name="showCross" format="boolean" />
+        <!--是否显示水滴-->
+        <attr name="showRaindrop" format="boolean" />
+        <!--扫描的转速，表示几秒转一圈-->
+        <attr name="speed" format="float" />
+        <!--水滴显示和消失的速度-->
+        <attr name="flicker" format="float" />
+    </declare-styleable>
+
+</resources>
